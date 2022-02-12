@@ -38,7 +38,7 @@ interface Human {
   age: number;
   gender: string;
 };
-// interface는 자바스크립트에서는 작동하지 않는다. 타입스크립트에서만.
+// interface는 자바스크립트에서는 작동하지 않는다. 타입스크립트에서만 읽는다.
 // interface에 관한 것을 자바스크립트에 담고 싶을 때는 class를 활용한다.
 
 const person = {
