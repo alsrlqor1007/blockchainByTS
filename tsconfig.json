@@ -1,0 +1,13 @@
+// Javascript로 변환하기 위한 옵션 지정
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015", // 자바스크립트 버전
+        "sourceMap": true, // sourcemap 처리
+        "outDir": "dist" // 컴파일 된 것들이 dist 폴더로 들어간다.
+    },
+    "include": ["src/**/*"],
+    // 어떤 파일들이 컴파일 과정에 포함되는지 배열
+    "exclude": ["node_modules"] // default로 추천
+} 
